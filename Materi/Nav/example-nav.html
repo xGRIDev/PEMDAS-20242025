@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Example - Nav</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./nav.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <img src="./ibg.png" alt="" class="" style="width: 50px; height: 50px" />
+      <ul class="menu">
+        <li><a>About</a></li>
+        <li>
+          <a>Activity</a>
+          <ul class="submenu">
+            <li><a>React</a></li>
+            <li><a>Svelte</a></li>
+            <li><a>VueJs</a></li>
+          </ul>
+        </li>
+        <li><a>Eskull</a></li>
+      </ul>
+      <span class="material-symbols-outlined"> menu </span>
+    </nav>
+    <div class="cards">
+      <label id="sent">
+        <input type="checkbox" />
+        <article>
+          <div class="front">
+            <img
+              src="./ibg.png"
+              alt=""
+              class=""
+              style="width: 50px; height: 50px"
+            />
+            <var>32k</var>
+            <h3>Emails Sent</h3>
+          </div>
+          <div class="back">
+            <p>More Information</p>
+          </div>
+        </article>
+      </label>
+      <label id="leads">
+        <input type="checkbox" />
+        <article>
+          <div class="front">
+            <img
+              src="./ibg.png"
+              alt=""
+              class=""
+              style="width: 50px; height: 50px"
+            />
+            <var>13%</var>
+            <h3>Leads Actioned</h3>
+          </div>
+          <div class="back">
+            <p>More Information</p>
+          </div>
+        </article>
+      </label>
+      <label id="convos">
+        <input type="checkbox" />
+        <article>
+          <div class="front">
+            <img
+              src="./ibg.png"
+              alt=""
+              class=""
+              style="width: 50px; height: 50px"
+            />
+            <var>211</var>
+            <h3>Conversations</h3>
+          </div>
+          <div class="back">
+            <p>More Information</p>
+          </div>
+        </article>
+      </label>
+    </div>
+  </body>
+</html>

@@ -14,3 +14,18 @@ section {
 }
 
 /* Content */
+.content {
+  max-width: 600px;
+}
+
+.content h1 {
+  font-family: "";
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.content p {
+}

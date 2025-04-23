@@ -1,3 +1,16 @@
 * {
   box-sizing: border-box;
 }
+
+/* SECTION */
+
+section {
+  display: grid;
+  grid-template-columns: 50% 45%;
+  place-items: center;
+  gap: 60px;
+  min-height: 100vh;
+  padding: 20px 60px;
+}
+
+/* Content */

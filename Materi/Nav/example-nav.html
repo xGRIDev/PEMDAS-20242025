@@ -3,67 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Navbar</title>
+    <link rel="stylesheet" href="./nav.css" />
   </head>
   <body>
-    <nav>
-      <img src="" alt="" class="" />
-      <ul class="menu">
-        <li><a>About</a></li>
-        <li>
-          <a>Activity</a>
-          <ul class="submenu">
-            <li>Section 1</li>
-            <li>Section II</li>
-            <li>Section III</li>
-          </ul>
-        </li>
-        <li><a>Profile</a></li>
-      </ul>
-      <span class="material-symbol-outlined"> Menu </span>
+    <div class="background"></div>
+    <nav class="navbar">
+      <img class="navbar-logo" src="./assets/picture/" />
+      <input type="text" placeholder="Search" class="navbar-search" />
     </nav>
-    <div class="cards-container">
-      <div class="card">
-        <label id="sent">
-          <input type="checkbox" />
-          <article>
-            <div class="front">
-              <img src="" alt="" class="" style="" />
-              <var>90</var>
-              <h3>Email Sent</h3>
-            </div>
-            <div class="back">
-              <p>More Information</p>
-            </div>
-          </article>
-        </label>
-        <label id="leads">
-          <input type="checkbox" />
-          <article>
-            <div class="">
-              <img src="" alt="" style="width: 50px; height: 50px" />
-              <var>15%</var>
-              <h3>Leads Action</h3>
-            </div>
-            <div class="back">
-              <p>More Info</p>
-            </div>
-          </article>
-        </label>
-        <label id="convos">
-          <input type="checkbox" />
-          <article>
-            <div class="front">
-              <img src="" alt="" style="width: 50px; height: 50px" />
-              <var>511</var>
-              <h3>Disscussions</h3>
-            </div>
-            <div class="back">
-              <p>More Info</p>
-            </div>
-          </article>
-        </label>
-      </div>
-    </div>
+    <button class="navbar-burger" onclick="toggleMenu()"></button>
+    <nav class="menu">
+      <a href="#" style="animation-delay: 0.1s">Home</a>
+      <a href="#" style="animation-delay: 0.2s">About</a>
+      <a href="#" style="animation-delay: 0.3s">Services</a>
+      <a href="#" style="animation-delay: 0.4s">Products</a>
+      <a href="#" style="animation-delay: 0.5s">Contact</a>
+    </nav>
+    <script>
+       const toggleMenu = () => {
+        document.body.classList.toggle("open");
+      };
+    </script>
   </body>
 </html>

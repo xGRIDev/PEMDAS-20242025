@@ -1,14 +1,3 @@
-body {
-  font-family: "Poppins";
-  font-size: 18px;
-  margin: 0;
-  height: 199vh;
-  background: #161617;
-  color: #fff;
-}
-
-:root {
-  font-family: "Poppins";
-  font-size: 18px;
-  margin: 0;
+* {
+  box-sizing: border-box;
 }

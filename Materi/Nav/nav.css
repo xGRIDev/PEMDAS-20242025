@@ -3,9 +3,9 @@
   box-sizing: border-box;
 }
 
-navbar,
-navbar-burger,
-menu,
+.navbar,
+.navbar-burger,
+.menu,
 .background {
   position: fixed;
 }
@@ -48,6 +48,26 @@ body.open .background {
 
 .navbar-logo {
   height: 25px;
+}
+
+.navbar-burger {
+  z-index: 3;
+  top: 0;
+  right: 0;
+  display: grid;
+  place-items: center;
+  width: 72px;
+  height: 72px;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body.open .navbar-burger {
+  background-image: url();
+}
+
+.navbar-search {
 }
 /* SECTION 
 

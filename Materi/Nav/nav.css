@@ -6,24 +6,24 @@
 .navbar,
 .navbar-burger,
 .menu,
-.background {
+.section {
   position: fixed;
 }
 
-.background {
+/*.background {
   z-index: 1;
   top: -10%;
   left: -10%;
   width: 120%;
   height: 120%;
-  background-image: url("../assets/picture/bk.jpg");
+  background-image: url("../assets/picture/learn.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   transition: 0.5;
-}
+}*/
 
-body.open .background {
+body.open .content {
   filter: blur(10px);
 }
 
@@ -47,7 +47,7 @@ body.open .background {
 }
 
 .navbar-logo {
-  height: 25px;
+  height: 60px;
 }
 
 .navbar-burger {
@@ -80,7 +80,7 @@ body.open .navbar-burger {
   font-size: 18px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-/* SECTION 
+/* SECTION */
 
 section {
   display: grid;
@@ -91,19 +91,24 @@ section {
   padding: 20px 60px;
 }
 
-/* Content 
+/* Content */
 .content {
   max-width: 600px;
 }
 
 .content h1 {
-  font-family: "";
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: clamp(2rem, 4vw, 3.5rem);
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 30px;
-  color: #fff;
+  color: #242222;
 }
 
 .content p {
-}*/
+  font-size: clamp(0.9rem, 3vw, 1.25rem);
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  color: #242222;
+}

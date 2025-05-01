@@ -7,17 +7,7 @@
     <link rel="stylesheet" href="../Nav/nav.css" />
   </head>
   <body>
-    <section>
-      <div class="content">
-        <h1>Welcome Back !</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem
-          quibusdam, ducimus eveniet quae distinctio quaerat beatae laudantium
-          voluptate hic voluptatibus nostrum, adipisci pariatur magni qui
-          doloribus nemo odit labore officiis.
-        </p>
-      </div>
-    </section>
+    <div class="background"></div>
     <nav class="navbar">
       <img class="navbar-logo" src="../assets/ibg.png" />
     </nav>
@@ -29,10 +19,17 @@
       <a href="#" style="animation-delay: 0.4s">Products</a>
       <a href="#" style="animation-delay: 0.5s">Contact</a>
     </nav>
-    <div class="item"></div>
-
-    <section class=""></section>
-
+    <section class="first">
+      <div class="description">
+        <h1 class="title">
+          <span class="text-gradient">Welcome Back.</span>
+        </h1>
+      </div>
+      <div class="svg-pict">
+        <span class="item" style="--i: 1"></span>
+        <img class="item" src="../assets/picture/learn.svg" alt="" />
+      </div>
+    </section>
     <script>
       const toggleMenu = () => {
         document.body.classList.toggle("open");

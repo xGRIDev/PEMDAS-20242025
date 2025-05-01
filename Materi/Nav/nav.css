@@ -32,7 +32,7 @@ body {
       rgba(7, 7, 7, 0.1) 66%,
       rgba(7, 7, 7, 0.1) 99%
     ),
-    linear-gradient(40deg, #040a22, #162561, #202e64, #6f7aa6);
+    linear-gradient(40deg, #fa812f, #ffb22c, #f3c623, #fef3e2);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -40,6 +40,10 @@ body.open .content {
   filter: blur(10px);
 }
 button {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
 }
 .navbar {
   z-index: 1;

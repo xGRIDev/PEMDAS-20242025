@@ -180,10 +180,11 @@ body.open .menu > a {
   display: grid;
   grid-template-columns: 45% 50%;
   place-items: center;
-  width: 100%;
+  width: auto;
   height: 100vh;
   overflow: hidden;
-  padding: 130px 80px;
+  padding: 100px;
+  margin-right: 50px;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

@@ -1,3 +1,6 @@
+/* IMPORT CUSTOM FONT KALIAN DISINI */
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&family=Lexend+Zetta:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 /* Nav*/
 * {
   box-sizing: border-box;
@@ -168,12 +171,20 @@ body.open .menu > a {
   grid-template-columns: 50% 45%;
   place-items: center;
   gap: 60px;
-  min-height: 100vh;
   padding: 20px 60px;
+  font-family: "Lexend Exa", sans-serif;
   font-size: clamp(2rem, 4vw, 3.5rem);
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 1px;
+}
+
+.description p {
+  font-size: clamp(0.9rem, 3vw, 1.25rem);
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  color: #fff;
 }
 
 .svg-pict {
@@ -189,4 +200,50 @@ body.open .menu > a {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom;
+}
+
+/** SECOND - SECTION**/
+
+.second-section .features-item {
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+}
+
+.second-section .features-item + .features-item {
+  margin-top: 100px;
+}
+
+@media (max-width: 640px) {
+  .second-section .features-item + .features-item {
+    margin-top: 40px;
+  }
+}
+
+.second-section .features-item h3 {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.second-section .features-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.second-section .features-item ul li {
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.second-section .features-item ul li:last-child {
+  padding-bottom: 0;
+}
+
+.second-section .features-item ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: var(--accent-color);
+}
+
+.second-section .features-item p:last-child {
+  margin-bottom: 0;
 }

@@ -195,7 +195,7 @@ body.open .menu > a {
   height: 100vh;
   overflow: hidden;
   padding: 100px;
-  margin-right: 50px;
+  margin-right: 40px;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -250,21 +250,28 @@ body.open .menu > a {
 
 /** MEDIA - QUERY **/
 
-@media (max-width: 900px) {
+@media (max-width: 930px) {
   .first {
     grid-template-columns: 100%;
-    grid-template-rows: 20% 40%;
+    grid-template-rows: 30% 40%;
     grid-template-areas:
       "slider"
       "content";
-    place-items: center;
-    gap: 64px;
+    align-items: center;
+    gap: 54px;
     padding: 80px;
+    margin-left: 100px;
     margin-top: 30px;
   }
   .description {
     grid-area: content;
     text-align: center;
+  }
+  .description h1 {
+    margin-left: 40px;
+  }
+  .description p {
+    margin-right: 50px;
   }
   .svg-pict {
     grid-template-columns: 100%;
@@ -272,8 +279,8 @@ body.open .menu > a {
     grid-template-areas:
       "slider"
       "content";
-    place-items: center;
+    align-content: center;
     gap: 64px;
-    padding: 60px;
+    padding-bottom: 85%;
   }
 }

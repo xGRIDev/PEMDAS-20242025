@@ -27,7 +27,7 @@
   transition: 0.5;
 }*/
 body {
-  background: linear-gradient(#253a5b, #2f3339);
+  background: linear-gradient(#112c26, #4e4f51, #2f3339);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -240,7 +240,10 @@ body.open .menu > a {
   margin-bottom: 0;
 }
 
-/** MEDIA - QUERY **/
+/** MEDIA - QUERY 
+
+MEDIA QUERY INI MEMBANTU KE-RESPONSIVITAS TERHADAP WEBVIEW DALAM BENTUK MOBILE DISPLAY
+**/
 
 @media (max-width: 930px) {
   .first {

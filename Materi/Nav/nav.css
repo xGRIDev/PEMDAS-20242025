@@ -7,6 +7,7 @@
 * {
   box-sizing: border-box;
   color: #f3f3f3;
+  scroll-behavior: smooth;
 }
 
 .navbar,
@@ -244,6 +245,31 @@ body.open .menu > a {
 }
 
 .section-footer{}
+
+
+/** LOADING **/
+#myDiv {
+  display: none;
+}
+#loading{
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  position: relative;
+  background: #f3f3f3;
+  box-sizing: border-box;
+  animation: zeroRotation 1s ease infinite alternate-reverse;
+}
+
+@keyframes zeroRotation {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  100% {
+    transform: scale(0) rotate(360deg);
+  }
+}
+
 
 /** MEDIA - QUERY 
 

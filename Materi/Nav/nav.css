@@ -324,6 +324,93 @@ body.open .menu > a {
 .ceo .team-member:hover .social {
   opacity: 1;
 }
+/** SECTION - JURUSAN **/
+
+.jurusan .nav-tabs {
+  border: 0;
+}
+
+.jurusan .nav-link {
+  background-color: #a7a7a7;
+  color: #2f3339;
+  border: 0;
+  padding: 25px 20px;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0s;
+  cursor: pointer;
+  height: 100%;
+}
+
+.jurusan .nav-link i {
+  font-size: 32px;
+  line-height: 0;
+}
+
+.jurusan .nav-link h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0 0 0;
+}
+
+.jurusan .nav-link:hover {
+  color: var(--accent-color);
+}
+
+.jurusan .nav-link:hover,
+.jurusan .nav-link.active {
+  transition: 0.3s;
+  background: #112c26;
+  color: #deea74 !important;
+  border-color: var(--accent-color);
+}
+
+.jurusan .nav-link:hover h4,
+.jurusan .nav-link.active h4 {
+  color: var(--contrast-color);
+}
+
+.jurusan .nav-link:hover i,
+.jurusan .nav-link.active i {
+  color: var(--contrast-color) !important;
+}
+
+.jurusan .tab-content {
+  margin-top: 30px;
+}
+
+.jurusan .tab-pane.active {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.jurusan .tab-pane h3 {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.jurusan .tab-pane ul {
+  list-style: none;
+  padding: 0;
+}
+
+.jurusan .tab-pane ul li {
+  padding-bottom: 10px;
+}
+
+.jurusan .tab-pane ul i {
+  font-size: 24px;
+  margin-right: 4px;
+  color: var(--accent-color);
+}
+
+.jurusan .tab-pane p:last-child {
+  margin-bottom: 0;
+}
+
 
 footer{
   

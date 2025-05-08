@@ -8,6 +8,7 @@
   box-sizing: border-box;
   color: #f3f3f3;
   scroll-behavior: smooth;
+  font-family:  "Lexend Exa", sans-serif;
 }
 
 .navbar,
@@ -245,49 +246,84 @@ body.open .menu > a {
 }
 
 /** SECTION - CEO **/
-.ceo .nav-tabs{
-  border: 0;
+.ceo .team-member .member-img {
+  border-radius: 8px;
+  overflow: hidden;
 }
 
-.ceo .nav-link {
-  background-color: var(--accent-color);
-  color: var(--default-color);
-  border: 0;
-  padding: 25px 20px;
-  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.1);
-  border-radius: 0;
+.ceo .team-member .social {
+  position: absolute;
+  left: 0;
+  top: -18px;
+  right: 0;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
   display: flex;
   align-items: center;
-  flex-direction: column;
-  transition: 0s;
-  cursor: pointer;
-  height: 100%;
+  justify-content: center;
 }
 
-.ceo .nav-link i {
-  font-size: 32px;
-  line-height: 0;
-}
-
-.ceo .nav-link h4{
-  font-size: 20px;
-  font-weight: 600;
-  margin: 10px 0 0 0;
-}
-
-.ceo .nav-link:hover {
-  color: #a7a7a7;
-}
-
-.ceo .nav-link:hover,
-.ceo .nav-link.active {
-  transition: 0.3s;
+.ceo .team-member .social a {
+  transition: color 0.3s;
+  color: var(--contrast-color);
   background: var(--accent-color);
-  color: var(--contrast-color) !important;
-  border-color: var(--accent-color);
+  margin: 0 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  transition: 0.3s;
 }
 
+.ceo .team-member .social a i {
+  line-height: 0;
+  font-size: 16px;
+}
 
+.ceo .team-member .social a:hover {
+  background: color-mix(in srgb, var(--accent-color) 90%, black 15%);
+}
+
+.ceo .team-member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+.ceo .team-member .member-info {
+  padding: 30px 15px;
+  text-align: center;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  background: #a7a7a7;
+  margin: -50px 20px 0 20px;
+  position: relative;
+  border-radius: 8px;
+}
+
+.ceo .team-member .member-info h4 {
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.ceo .team-member .member-info span {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+}
+
+.ceo .team-member .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+}
+
+.ceo .team-member:hover .social {
+  opacity: 1;
+}
 
 footer{
   

@@ -244,16 +244,32 @@ body.open .menu > a {
   margin-bottom: 0;
 }
 
+/** SECTION - CEO **/
+
+
+
 footer{
   
-  left: 0;
-  bottom: 0;
-  display: flex;
-  width: 100%;
-  height: 370px;
 }
 
+.background {
+  position: relative;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
 
+.section-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 30px;
+  padding-bottom: 80px;
+  padding-left: 60px;
+  width: 100%;
+}
 
 
 
@@ -266,7 +282,7 @@ footer{
   height: 48px;
   display: inline-block;
   position: relative;
-  background: linear-gradient(#112c26, #4e4f51, #2f3339);
+  background: linear-gradient(#6DE1D2, #FFD63A, #FFA955);
   box-sizing: border-box;
   animation: zeroRotation 1s ease infinite alternate-reverse;
 }

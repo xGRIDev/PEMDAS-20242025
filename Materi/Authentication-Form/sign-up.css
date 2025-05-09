@@ -1,3 +1,6 @@
+/* == IMPORT FONT CUSTOM KALIAN DISINI == */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&family=Lexend+Zetta:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -16,7 +19,7 @@ body {
     padding: 0 32px;
     background: #f1f5fb;
     color: #315c4e;
-    font-family: ;
+    font-family: "Montserrat", sans-serif;
 }
 
 .background {
@@ -89,4 +92,59 @@ body {
     margin: 0 0 32px;
     display: grid;
     gap: 12px;
+}
+
+.form :is(input, button){
+    width: 100%;
+    height: 56px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+.textbox {
+    position: relative;
+}
+
+.textbox > input {
+    border: 0;
+    padding: 0 16px 40px;
+    color: inherit;
+    background: rgb(0 0 0 / 4%);
+}
+
+.textbox > input::placeholder {
+    color: var(--color-muted);
+}
+
+.textbox > span {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    translate: 0 -50%;
+    pointer-events: none;
+    color: var(--color-muted);
+}
+
+.form > button {
+    border: 0;
+    color: #5e5353;
+    background: var(--color-primary);
+    display: grid;
+    place-items: center;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.card > footer {
+    color: var(--color-primary);
+}
+
+.card > a {
+    display: block;
+    max-resolution: 0 0 56px;
+}
+
+.card a {
+    font-weight: 500;
+    color: #216ce7;
 }

@@ -67,7 +67,8 @@ body {
 .card .logo{
     position: absolute;
     top: 0;
-    left: 30px 0;
+    left: -10%;
+    padding: 30px 0;
     background: #315c4e;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50% ;
@@ -148,3 +149,25 @@ body {
     font-weight: 500;
     color: #216ce7;
 }
+
+/** TAMBAHKAN MEDIA QUERY UNTUK RESPONSIVE **/
+
+@media (width >= 500px) {
+    body {
+      padding: 0;
+    }
+  }
+  
+  @keyframes move {
+    100% {
+      transform: translateY(-120px);
+    }
+  }
+  
+  @media (width >= 680px) {
+    .card {
+      margin: 0;
+      width: 60vw;
+      max-width: 420px;
+    }
+  }

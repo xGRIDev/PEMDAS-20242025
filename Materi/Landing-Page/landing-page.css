@@ -146,7 +146,7 @@ body.open .menu > a {
     opacity: 1;
   }
 }
-/* SECTION-1 */
+/* =============  SECTION-1  =======================*/
 .first {
   display: grid;
   grid-template-columns: 45% 50%;
@@ -199,7 +199,7 @@ body.open .menu > a {
   background-position: bottom;
 }
 
-/** SECOND - SECTION**/
+/** ================  SECOND - SECTION ================================**/
 
 .second-section .features-item {
   color: color-mix(in srgb, var(--default-color), transparent 20%);
@@ -324,7 +324,7 @@ body.open .menu > a {
 .ceo .team-member:hover .social {
   opacity: 1;
 }
-/** SECTION - JURUSAN **/
+/** ========== SECTION - JURUSAN ==================== **/
 
 .jurusan .nav-tabs {
   border: 0;
@@ -437,7 +437,7 @@ footer{
 
 
 
-/** LOADING **/
+/** =========== LOADING - ANIMATION ===================**/
 #myDiv {
   display: none;
 }

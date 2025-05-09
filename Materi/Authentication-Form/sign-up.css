@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --color-primary: #64E2B7;
+    --color-muted: #315c4e;
+}
+
+body {
+    gap: 50px;
+    display: grid;
+    place-items: center;
+    margin: 0;
+    height: 100vh;
+    padding: 0 32px;
+    background: #f1f5fb;
+    color: #315c4e;
+    font-family: ;
+}
+
+.background {
+    position: fixed;
+    inset: 0;
+}
+
+.background::before,
+.background::after{
+    content: "";
+    position: inherit;
+    border-radius: 47% 53% 61% 39% / 45% 51% 49% 55%;
+    width: 100vmin;
+    height: 100vmin;
+    animation: move 10s alternate infinite linear;
+}
+
+.background::before{
+    top: -40vmin;
+    left: -50vmin;
+    background: #65c8ff;
+}

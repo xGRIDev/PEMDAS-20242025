@@ -37,7 +37,7 @@ body {
 .background::before{
     top: -40vmin;
     left: -50vmin;
-    background: #65c8ff;
+    background: #ed5426;
 }
 
 .background::after{
@@ -46,7 +46,7 @@ body {
     background: #2357ad;
     animation-direction: alternate-reverse;
 }
-
+/****/
 .card {
     overflow: hidden;
     position: relative;
@@ -58,5 +58,35 @@ body {
     background: rgb(255 255 255 / 100%);
     backdrop-filter: blur(100px);
     text-align: center;
-    box-shadow: 0 100px 100px rgb(0 0 0 / 10%);
+    box-shadow: 0 100px 100px rgba(0, 0, 0, 0.1);
+}
+
+.card .logo{
+    position: absolute;
+    top: 0;
+    left: 30px 0;
+    background: #315c4e;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50% ;
+    width: 120%;
+    height: 124px;
+    margin-bottom: 20px;
+}
+.card > h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 116px 0 4px;
+}
+
+.card > h3 {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 44px;
+    color: var(--color-muted);
+}
+
+.form {
+    margin: 0 0 32px;
+    display: grid;
+    gap: 12px;
 }

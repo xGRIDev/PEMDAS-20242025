@@ -53,14 +53,31 @@
 .background span:nth-child(3){
     color: #5de5c9;
     top: 76%;
-    left: 40%                                    ;
+    left: 40%;
+    animation-duration: 13s;
+    animation-delay: -32s;
+    transform-origin: -17vw -1vh;
+    box-shadow: 76vmin 0 9.76941503334886vmin currentColor;
 }
 .background span:nth-child(4)
 {
-
+    color: #583c87;
+    top: 92%;
+    left: 66%;
+    animation-duration: 45s;
+    animation-delay: -28s;
+    transform-origin: -15vw -14vh;
+    box-shadow: 76vmin 0 9.76941503334886vmin currentColor;
 }
 
 .background span:nth-child(5)
 {
+    color: #dc81ee;
+    top: 95%;
+    left: 45%;
+    animation-duration: 24s;
+    animation-delay: -19s;
+    transform-origin: -9vw -15vh;
+    box-shadow: 76vmin 0 9.76941503334886vmin currentColor;
 
 }

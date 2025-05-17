@@ -33,7 +33,7 @@ input {
     flex-direction: column;
     justify-content: center;
     padding: 0 40px;
- background: rgba(20, 43, 55, 0.8);
+ background: rgba(255, 251, 254, 0.8);
  backdrop-filter: blur(50px);
 }
 /** KEYFRAME UNTUK ANIMASI BACKGROUND 3D **/
@@ -49,7 +49,7 @@ input {
     height: 100vh;
     top: 0;
     left: 0;
-    background: #003049;
+    background: #1d2d44;
     overflow: hidden;
 }
 

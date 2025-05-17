@@ -3,7 +3,7 @@
   <img src="Materi/assets/Coding workshop.svg" style="width:50%; height: 30%;"/>
 </p> 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&width=100%&section=footer&text=%5xPEMDAS-FRONTEND%5" style="width:70%; height: 30%;"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&width=100%&section=footer&text=%5xPEMDAS-FRONTEND%5" style="width:80%; height: 30%;"/>
 </p> 
 Description :
 

@@ -15,3 +15,52 @@
     background: #003049;
     overflow: hidden;
 }
+
+.background span {
+    width: 38vmin;
+    height: 38vmin;
+    border-radius: 38vmin;
+    backface-visibility: hidden;
+    position: absolute;
+    animation: move;
+    animation-duration: 105;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.background span:nth-child(0)
+{
+    color: #003049;
+    top: 57%;
+    left: 23%;
+    animation-duration: 10s;
+    animation-delay: -31s;
+    transform-origin: -20vw -15vh;
+      box-shadow: -76vmin 0 10.414138892314494vmin currentColor;
+}
+
+.background span:nth-child(1)
+{
+    color: #dc81ee;
+    top: 51%;
+    left: 66%;
+    animation-duration: 28s;
+    animation-delay: -32s;
+    transform-origin: -13vw -12vh;
+    box-shadow: 76vmin 0 10.421136806952989vmin currentColor;
+}
+
+.background span:nth-child(3){
+    color: #5de5c9;
+    top: 76%;
+    left: 40%                                    ;
+}
+.background span:nth-child(4)
+{
+
+}
+
+.background span:nth-child(5)
+{
+
+}

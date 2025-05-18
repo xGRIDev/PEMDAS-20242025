@@ -71,6 +71,49 @@ input {
     pointer-events: none;
     color: rgb(255, 251, 254 / 40%);
 } 
+
+.textbox input {
+    padding: 0 24px 0 36px;
+    border-bottom: 2px solid rgb(255, 255, 255 / 5%);
+    color: rgb(255, 251, 254 / 96%);
+    height: 72px;
+    transition: 0.8s;
+}
+
+:is(input:focus, input:valid) ~ label {
+    translate: -40px -40px;
+    scale: 0.875;
+}
+
+input:focus ~ label {
+    color: rgb(255, 255, 255 / 40%);
+}
+
+input:focus {
+  border-color: rgb(255 255 255 / 76%);
+}
+
+:is(input:focus, input:valid) ~ span {
+    color: rgb(255 255 255 / 76%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /** KEYFRAME UNTUK ANIMASI BACKGROUND 3D **/
 @keyframes move {
     100% {

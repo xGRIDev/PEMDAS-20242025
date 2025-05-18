@@ -33,9 +33,44 @@ input {
     flex-direction: column;
     justify-content: center;
     padding: 0 40px;
- background: rgba(255, 251, 254, 0.8);
- backdrop-filter: blur(50px);
+    background: rgba(255, 251, 254, 0.8);
+    backdrop-filter: blur(50px);
 }
+
+.sign-up > h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0 0 6px;
+    color: rgb(255, 251, 254 / 96%);
+}
+
+.sign-up > h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 30px;
+    color: rgb(255, 251, 254 / 40%);
+}
+
+.form {
+    margin: 0;
+    display: grid;
+    gap: 18px;
+}
+
+.textbox {
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.textbox span {
+    position: absolute;
+    top: 50%;
+    translate: 0 -50%;
+    left: 0;
+    font-size: 22px;
+    pointer-events: none;
+    color: rgb(255, 251, 254 / 40%);
+} 
 /** KEYFRAME UNTUK ANIMASI BACKGROUND 3D **/
 @keyframes move {
     100% {
